@@ -70,14 +70,8 @@ if ($tipoUsuario == "administrador"){   //aqui abre el menu del administrador
                 <li class="nav-item active">
                     <a class="nav-link" href="index.php?controlador=paginas&accion=inicio">Inicio <span class="visually-hidden">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Animales</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="index.php?controlador=animales&accion=mostrar">caninos</a>
-                        <a class="dropdown-item" href="#">felinos</a>
-                        <a class="dropdown-item" href="#">aves</a>
-                        <a class="dropdown-item" href="#">reptiles</a>
-                    </div>
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.php?controlador=animales&accion=mostrar" >Animales</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?controlador=paginas&accion=consejos">Consejos</a>
@@ -130,7 +124,7 @@ if ($tipoUsuario == "usuario"){   //aqui abre el menu del usuario
                     <a class="nav-link" href="index.php?controlador=paginas&accion=inicio">Inicio <span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?controlador=paginas&accion=animales">Animales</a>
+                    <a class="nav-link" href="index.php?controlador=animales&accion=mostrar">Animales</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?controlador=paginas&accion=consejos">Consejos</a>

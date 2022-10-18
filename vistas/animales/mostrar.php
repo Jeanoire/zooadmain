@@ -44,8 +44,8 @@
                     <td>   <?php echo $p->historialmedico  ?>   </td>
                     <td class="d-flex flex-row justify-content-center">
                         <div class="btn-group" role="group">
-                            <a href="index.php?controlador=animales&accion=actualizarRegistro&id=<?php echo $p->idanimal  ?>" class="btn btn-warning">Editar</a>&nbsp &nbsp
-                            <a href="index.php?controlador=animales&accion=borrarRegistro&id=<?php echo $p->idanimal  ?>" class="btn btn-danger" onclick="return confirmar(<?php echo $p->idProducto  ?>)">Eliminar</a>
+                            <a href="index.php?controlador=animales&accion=actualizarRegistro&id_animal=<?php echo $p->idanimal  ?>" class="btn btn-warning">Editar</a>&nbsp &nbsp
+                            <a href="index.php?controlador=animales&accion=borrarRegistro&id_animal=<?php echo $p->idanimal  ?>" class="btn btn-danger" onclick="return confirmar(<?php echo $p->idanimal ?>)">Eliminar</a>
 
                         </div>
                     </td>

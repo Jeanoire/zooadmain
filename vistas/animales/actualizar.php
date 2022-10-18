@@ -12,7 +12,12 @@
 
                 <div class="card-body">
                     <div class="container col-sm-6">
-                        <form method="POST" action="">
+                        <form method="POST" action="index.php?controlador=animales&accion=actualizarRegistro&id_animal">
+
+                        <div class = "form-group">
+                                <label for="inputid_animal"> <strong> id del animal </strong></label>
+                                <input readonly type="text" value="<?php echo $Datosanimal->idanimal; ?>" name="txtid" class="form-control" id="inputid_animal" >
+                            </div>
                            
                             <div class = "form-group">
                                 <label for="inputnombre"> <strong> Nombre del animal </strong></label>
@@ -40,7 +45,7 @@
                             </div>
 
                             <br>
-                            <button type="submit" class="btn btn-primary"> Actualizar producto  </button>
+                            <button type="submit" class="btn btn-primary"> Actualizar </button>
                         </form>
                     </div>
                 </div>
