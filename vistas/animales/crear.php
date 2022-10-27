@@ -2,7 +2,7 @@
     include_once("./modelos/animal.php");
 ?>
 
-<div class="container">
+<div class="container wrap-form">
     <div class="row d-flex flex-grid justify-content-center">
         <div class="col-md-8">
             <div class="card card-color">

@@ -6,7 +6,8 @@
     <div class="row d-flex flex-grid justify-content-center">
         <div class="col-md-8">
             <div class="card card-color">
-                <div class="card-header text-white bg-primary text-center">
+                <br>
+                <div class="card-header text-white bg-dark text-center">
                     Actualizacion de mascotas
                 </div>
 
@@ -45,7 +46,7 @@
                             </div>
 
                             <br>
-                            <button type="submit" class="btn btn-primary"> Actualizar </button>
+                            <button type="submit" class="btn btn-dark"> Actualizar </button>
                         </form>
                     </div>
                 </div>

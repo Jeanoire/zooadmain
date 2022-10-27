@@ -17,7 +17,7 @@
     <title>Proyecto MVC</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="">
         <?php 
             include_once ("modulos/navbar.php");
             include_once ("./ruteador.php");

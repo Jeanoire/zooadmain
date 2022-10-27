@@ -4,7 +4,7 @@
     $objIngreso -> ingreso();
 ?>
 
-<div class ="container">
+<div class ="container wrap-form">
     <div class="card card-color">
         <div class="card-header">
             Ingreso al Sistema
@@ -21,7 +21,7 @@
                         <input type="password" name="txtPassword" class="form-control" id="inputPassword" placeholder="Digite su Contraseña" required>
                     </div>
                     <br>
-                    <button type="submit" name="login" class="btn btn-primary">Ingresar</button>
+                    <button type="submit" name="login" class="btn btn-dark">Ingresar</button>
                     <br>
                     <div class ="form-group">
                         <p class = "text-center py-3">Para registrarse hágalo aqui | <a href="index.php?controlador=paginas&accion=registro"> Registrese</a></p>

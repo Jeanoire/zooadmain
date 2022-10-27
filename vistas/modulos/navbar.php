@@ -23,9 +23,7 @@ if(!isset($_SESSION["usuario"])){  // no hay sesion
               <li class="nav-item active">
                   <a class="nav-link" href="index.php?controlador=paginas&accion=inicio">Inicio <span class="visually-hidden">(current)</span></a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="index.php?controlador=paginas&accion=nosotros">Nosotros</a>
-              </li>
+
           </ul>
 
           <ul  class = "nav navbar-nav navbar-right">
@@ -33,7 +31,7 @@ if(!isset($_SESSION["usuario"])){  // no hay sesion
                     <?php 
                         if (isset($_SESSION["usuario"])){
                             echo '<strong>';
-                            echo "Hola, ".$_SESSION["usuario"]['nombre']."&nbsp->&nbsp".$_SESSION["usuario"]['perfil'];
+                            echo "Hola, ".$_SESSION["usuario"]['nombre']."》   ".$_SESSION["usuario"]['perfil'];
                             echo '</strong>';
                         }
                     ?>
@@ -58,7 +56,7 @@ if(!isset($_SESSION["usuario"])){  // no hay sesion
 if ($tipoUsuario == "administrador"){   //aqui abre el menu del administrador
 ?>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+    <nav class="navbar navbar-expand-sm navbar-light bg-success">
       <div class="container">
         <a class="navbar-brand" href="#"><span class="color-acento">ZOO</span>admin</a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -84,7 +82,7 @@ if ($tipoUsuario == "administrador"){   //aqui abre el menu del administrador
                     <?php 
                         if (isset($_SESSION["usuario"])){
                             echo '<strong>';
-                            echo "".$_SESSION["usuario"]['nombre']."&nbsp-&nbsp".$_SESSION["usuario"]['perfil'];
+                            echo "".$_SESSION["usuario"]['nombre']." 》 ".$_SESSION["usuario"]['perfil'];
                             echo '</strong>';
                         }
                     ?>
@@ -111,7 +109,7 @@ if ($tipoUsuario == "administrador"){   //aqui abre el menu del administrador
 if ($tipoUsuario == "usuario"){   //aqui abre el menu del usuario
 ?>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#"><span class="color-acento">ZOO</span>admin</a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -135,7 +133,7 @@ if ($tipoUsuario == "usuario"){   //aqui abre el menu del usuario
                     <?php 
                         if (isset($_SESSION["usuario"])){
                             echo '<strong>';
-                            echo "".$_SESSION["usuario"]['nombre']."&nbsp-&nbsp".$_SESSION["usuario"]['perfil'];
+                            echo "".$_SESSION["usuario"]['nombre']."》   ".$_SESSION["usuario"]['perfil'];
                             echo '</strong>';
                         }
                     ?>
